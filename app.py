@@ -5,7 +5,7 @@ from cdk_stacks.etl_stack import EtlStack
 
 app = cdk.App()
 
-# Instantiate the DataLakeStack
+# Instantiate the DataLakeStack and EtlStack
 data_lake_stack = DataLakeStack(app, "DataLakeStack")
 etl_stack = EtlStack(app, "EtlStack", data_lake_stack=data_lake_stack)
 
