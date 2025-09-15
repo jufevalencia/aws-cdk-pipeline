@@ -34,7 +34,7 @@ El pipeline sigue una arquitectura serverless moderna para la ingesta y procesam
 
 1.  **Clonar el Repositorio**
     ```bash
-    git clone <url-del-repositorio>
+    git clone https://github.com/jufevalencia/aws-cdk-pipeline.git
     cd aws-cdk-pipeline
     ```
 
