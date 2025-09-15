@@ -2,9 +2,24 @@
 package-lock.json
 __pycache__
 .pytest_cache
-.venv
 *.egg-info
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# Virtual Environment
+.venv/
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+.cdk.staging/
+*.lock
+
+# IDE / Editor specific files
+.vscode/
+.idea/
