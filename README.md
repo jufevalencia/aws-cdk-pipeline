@@ -26,9 +26,9 @@ El pipeline sigue una arquitectura serverless moderna para la ingesta y procesam
 ## Instrucciones de Despliegue
 
 ### Prerrequisitos
-* [cite_start]AWS CLI configurado con credenciales. [cite: 11]
-* [cite_start]AWS CDK v2 instalado. [cite: 12]
-* [cite_start]Python 3.10+ y Node.js. [cite: 13, 14]
+* AWS CLI configurado con credenciales. [cite: 11]
+* AWS CDK v2 instalado. [cite: 12]
+* Python 3.10+ y Node.js. [cite: 13, 14]
 
 ### Pasos para el Despliegue
 
